@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.rohit.expensemanager.MainActivity"
+    android:background="@drawable/bg_login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log-in"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textColorHint="@android:color/white"
+        android:hint="Email"
+        android:textColor="@android:color/white"
+        android:id="@+id/login_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:id="@+id/login_password"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:text="Login"
+        android:id="@+id/Login_btn"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/bg_btn"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Passowrd? Click Here"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:id="@+id/forgot_txt"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_txt"
+        android:textColor="@android:color/white"
+        android:text="Don't Have an account? Click here"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"/>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924806872634",
+    "firebase_url": "https://expense-manager-cecbb.firebaseio.com",
+    "project_id": "expense-manager-cecbb",
+    "storage_bucket": "expense-manager-cecbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924806872634:android:89d558a159771641",
+        "android_client_info": {
+          "package_name": "com.example.rohit.expensemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924806872634-jbasjc44id4lcpi0mshuqnp40h3glgo6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohit.expensemanager",
+            "certificate_hash": "8f55e6eaec84f832e5f6448c07653e44fef27f46"
+          }
+        },
+        {
+          "client_id": "924806872634-tu0oth7hplt8rhfljc36v9net2pcaknb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpEV-sIFDn55PcLCG4-qQgF_D-ReRuyVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924806872634-tu0oth7hplt8rhfljc36v9net2pcaknb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

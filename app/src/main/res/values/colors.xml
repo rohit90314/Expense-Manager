@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dash_clr">#553df4</color>
+    <color name="inc_clr">#0fa725</color>
+    <color name="exp_clr">#c7370b</color>
+
+    <color name="inc_date">#3c16d7</color>
+    <color name="inc_note">#ea05b5</color>
+    <color name="inc_type">#c7400b</color>
+    <color name="inc_amount">#4cd70c</color>
+    <color name="exp_amount">#f70b07</color>
+</resources>
